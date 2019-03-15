@@ -5,8 +5,12 @@ This is a short guide for calculating pagerank in Octave.  It's mainly
 for the purpose of being illustrative for how the algorithm works, and
 why matricies are involved.
 
+## Example Network
 
-## 1. Adjacency Matrix
+![](graph.svg)
+
+
+## Adjacency Matrix
 
 First thing to do is start with an Adjacency matrix, which is one way
 to describe directed graphs.

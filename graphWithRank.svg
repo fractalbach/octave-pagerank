@@ -1,0 +1,65 @@
+<svg width="428pt" height="198pt" viewBox="0.00 0.00 428.00 198.00" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+<g id="graph1" class="graph" transform="scale(1 1) rotate(0) translate(4 194)">
+<title>PageRankGraph</title>
+<polygon fill="white" stroke="white" points="-4,5 -4,-194 425,-194 425,5 -4,5"></polygon>
+<!-- Page 1\n0.3750 -->
+<g id="node1" class="node"><title>Page 1\n0.3750</title>
+<ellipse fill="none" stroke="black" cx="39" cy="-85" rx="38.5747" ry="38.5747"></ellipse>
+<text text-anchor="middle" x="39" y="-89.2" font-family="Times,serif" font-size="14.00">Page 1</text>
+<text text-anchor="middle" x="39" y="-72.4" font-family="Times,serif" font-size="14.00">0.3750</text>
+</g>
+<!-- Page 2\n0.1250 -->
+<g id="node3" class="node"><title>Page 2\n0.1250</title>
+<ellipse fill="none" stroke="black" cx="153" cy="-152" rx="38.5747" ry="38.5747"></ellipse>
+<text text-anchor="middle" x="153" y="-156.2" font-family="Times,serif" font-size="14.00">Page 2</text>
+<text text-anchor="middle" x="153" y="-139.4" font-family="Times,serif" font-size="14.00">0.1250</text>
+</g>
+<!-- Page 1\n0.3750&#45;&gt;Page 2\n0.1250 -->
+<g id="edge2" class="edge"><title>Page 1\n0.3750-&gt;Page 2\n0.1250</title>
+<path fill="none" stroke="black" d="M74.8236,-99.5306C87.2411,-106.408 101.288,-114.767 113.962,-122.813"></path>
+<polygon fill="black" stroke="black" points="112.18,-125.829 122.479,-128.312 115.976,-119.948 112.18,-125.829"></polygon>
+</g>
+<!-- Page 3\n0.1875 -->
+<g id="node5" class="node"><title>Page 3\n0.1875</title>
+<ellipse fill="none" stroke="black" cx="267" cy="-114" rx="38.5747" ry="38.5747"></ellipse>
+<text text-anchor="middle" x="267" y="-118.2" font-family="Times,serif" font-size="14.00">Page 3</text>
+<text text-anchor="middle" x="267" y="-101.4" font-family="Times,serif" font-size="14.00">0.1875</text>
+</g>
+<!-- Page 1\n0.3750&#45;&gt;Page 3\n0.1875 -->
+<g id="edge4" class="edge"><title>Page 1\n0.3750-&gt;Page 3\n0.1875</title>
+<path fill="none" stroke="black" d="M77.4926,-89.581C108.265,-93.3664 152.969,-98.9235 192,-104 200.593,-105.118 209.744,-106.333 218.575,-107.52"></path>
+<polygon fill="black" stroke="black" points="218.365,-111.023 228.743,-108.892 219.301,-104.086 218.365,-111.023"></polygon>
+</g>
+<!-- Page 4\n0.3125 -->
+<g id="node7" class="node"><title>Page 4\n0.3125</title>
+<ellipse fill="none" stroke="black" cx="381" cy="-38" rx="38.5747" ry="38.5747"></ellipse>
+<text text-anchor="middle" x="381" y="-42.2" font-family="Times,serif" font-size="14.00">Page 4</text>
+<text text-anchor="middle" x="381" y="-25.4" font-family="Times,serif" font-size="14.00">0.3125</text>
+</g>
+<!-- Page 1\n0.3750&#45;&gt;Page 4\n0.3125 -->
+<g id="edge6" class="edge"><title>Page 1\n0.3750-&gt;Page 4\n0.3125</title>
+<path fill="none" stroke="black" d="M76.386,-75.5998C138.142,-64.0647 263.449,-46.5779 332.201,-39.7422"></path>
+<polygon fill="black" stroke="black" points="332.703,-43.2102 342.325,-38.7759 332.038,-36.2419 332.703,-43.2102"></polygon>
+</g>
+<!-- Page 2\n0.1250&#45;&gt;Page 1\n0.3750 -->
+<g id="edge8" class="edge"><title>Page 2\n0.1250-&gt;Page 1\n0.3750</title>
+<path fill="none" stroke="black" d="M117.2,-137.483C104.752,-130.589 90.6637,-122.204 77.9617,-114.138"></path>
+<polygon fill="black" stroke="black" points="79.7262,-111.111 69.4267,-108.627 75.929,-116.992 79.7262,-111.111"></polygon>
+</g>
+<!-- Page 2\n0.1250&#45;&gt;Page 3\n0.1875 -->
+<g id="edge10" class="edge"><title>Page 2\n0.1250-&gt;Page 3\n0.1875</title>
+<path fill="none" stroke="black" d="M189.745,-139.872C199.545,-136.547 210.302,-132.898 220.566,-129.415"></path>
+<polygon fill="black" stroke="black" points="221.865,-132.67 230.21,-126.143 219.616,-126.042 221.865,-132.67"></polygon>
+</g>
+<!-- Page 3\n0.1875&#45;&gt;Page 4\n0.3125 -->
+<g id="edge12" class="edge"><title>Page 3\n0.1875-&gt;Page 4\n0.3125</title>
+<path fill="none" stroke="black" d="M299.198,-92.8298C311.835,-84.2548 326.583,-74.247 339.996,-65.1459"></path>
+<polygon fill="black" stroke="black" points="342.271,-67.8315 348.581,-59.3203 338.341,-62.0392 342.271,-67.8315"></polygon>
+</g>
+<!-- Page 4\n0.3125&#45;&gt;Page 1\n0.3750 -->
+<g id="edge14" class="edge"><title>Page 4\n0.3125-&gt;Page 1\n0.3750</title>
+<path fill="none" stroke="black" d="M343.436,-47.4334C281.618,-58.9688 156.486,-76.4285 87.8005,-83.2577"></path>
+<polygon fill="black" stroke="black" points="87.3072,-79.7888 77.685,-84.2232 87.9724,-86.7571 87.3072,-79.7888"></polygon>
+</g>
+</g>
+</svg>

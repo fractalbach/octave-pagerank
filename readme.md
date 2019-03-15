@@ -147,8 +147,12 @@ pagerank =
 
 **WOOT! WE ARE DONE!**
 
+![SVG picture of the network graph with pagerank](graphWithRank.svg)
 
-
+The pages with a high pagerank tend to have more inbound links from
+other pages that have a high pagerank. Although it's not a perfect
+measurement of "importance" (and can be easily manipulated) it worked
+out pretty well overall.
 
 
 ## Other stuff to try

@@ -7,7 +7,14 @@ why matricies are involved.
 
 ## Example Network
 
-![](graph.svg)
+Here is an example of a network, drawn as a directed graph. It's a
+very simple network. Pretend that an arrow represents a hyperlink from
+one webpage to another.
+
+![SVG picture of an example network graph](graph.svg)
+
+Now we are going to convert it into a format that can be used to
+calculate the pagerank of each page.
 
 
 ## Adjacency Matrix
@@ -49,6 +56,7 @@ the symbols `./` and `.*` are octaves way of doing an element by
 element operation, we could achieve the same thing using `for` loops.
 
 ~~~
+>> hyperlinkMatrix
 hyperlinkMatrix =
 
    0.00000   0.50000   0.00000   1.00000
@@ -65,11 +73,8 @@ splitting up the value of your outbound links.  If you make a webpage
 and have 5 links, then each of those links will be assigned a value of
 1/5.
 
-~~~octave
-sum(hyperlinkMatrix)
 ~~~
-
-~~~
+>> sum(hyperlinkMatrix)
 ans =
 
    1   1   1   1
@@ -101,6 +106,7 @@ pagerank(1,1) = 1;
 Here's what the pagerank vector looks like when its initialized:
 
 ~~~
+>> pagerank
 pagerank =
 
    1
@@ -116,11 +122,10 @@ pagerank =
 
 Woo, now we are ready to calculate the pagerank!  Now that we've set
 up our vectors and matricies in a nice way, it's actually pretty easy.
+Let's try doing 100 iterations.
 
 ~~~octave
-nIters = 100;
-
-for i = [1:nIters]
+for i = 1:100
   pagerank = hyperlinkMatrix * pagerank;
 endfor
 ~~~
@@ -129,6 +134,7 @@ endfor
 And now we have our pagerank of each page!
 
 ~~~
+>> pagerank
 pagerank =
 
    0.37500
@@ -140,6 +146,9 @@ pagerank =
 
 
 **WOOT! WE ARE DONE!**
+
+
+
 
 
 ## Other stuff to try
@@ -163,6 +172,7 @@ column is the most recent calculation.
 
 
 ~~~
+>> tracker
 tracker =
 
    1.00000   0.00000   0.50000   0.33333   0.41667   0.33333   0.40278   0.36111   0.38194   0.37037   0.37847
@@ -181,7 +191,8 @@ intialize the pagerank vector. Here's what happens when you assign the
 1 value to the 3rd node instead of the 1st.
 
 ~~~
-asdf =
+>> tracker
+tracker =
 
    0.00000   0.00000   1.00000   0.00000   0.50000   0.33333   0.41667   0.33333   0.40278   0.36111   0.38194
    0.00000   0.00000   0.00000   0.33333   0.00000   0.16667   0.11111   0.13889   0.11111   0.13426   0.12037
@@ -192,3 +203,12 @@ asdf =
 
 Notice that, although the values are a little bit different after only
 10 iterations, they are approaching the same values.
+
+
+## References
+
+
+- http://www.ams.org/publicoutreach/feature-column/fcarc-pagerank
+
+- https://www.gnu.org/software/octave/
+
